@@ -56,6 +56,7 @@ int main(){
     cout << "Enter another word: ";
     getline(cin, secondWord);
 
+    //Compare both words using the helper function
     if(toLowerCase(firstWord) == toLowerCase(secondWord)){
         cout << "Strings are equal, (case sensitive)" << endl;
     }else{
